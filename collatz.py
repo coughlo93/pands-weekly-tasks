@@ -10,7 +10,7 @@ def collatz_sequence(n):
 
 def main():
     try:
-        # Get a positive integer from the user
+        # Get a positive integer
         num = int(input("Please enter a positive integer: "))
         if num <= 0:
             raise ValueError("Please enter a positive integer.")

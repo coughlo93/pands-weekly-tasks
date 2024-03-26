@@ -1,5 +1,3 @@
-# collatz.py
-
 def collatz_sequence(n):
     sequence = [n]
     while n != 1:

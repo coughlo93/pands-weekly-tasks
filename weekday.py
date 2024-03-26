@@ -1,12 +1,10 @@
-# weekday.py
-
 import datetime
 
 def is_weekday():
-    # Get the current day of the week (0 = Monday, 6 = Sunday)
+    # Get the current day of the week 
     current_day = datetime.datetime.today().weekday()
 
-    # Check if the current day is a weekday (Monday to Friday)
+    # Check if the current day is a weekday
     return current_day < 5
 
 def main():

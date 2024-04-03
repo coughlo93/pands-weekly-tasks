@@ -3,7 +3,6 @@
 # Enter amount2(in cent): 180
 # The sum of these is €2.45
 
-
 # Input the first money amount in cents
 amount1 = int(input("Enter amount 1 (in cent): "))
 # Input the second money amount in cents

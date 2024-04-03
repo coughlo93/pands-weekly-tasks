@@ -1,3 +1,7 @@
+# python collatz.py
+# Please enter a positive integer: 10
+# 10 5 16 8 4 2 1
+
 def collatz_sequence(n):
     sequence = [n]
     while n != 1:

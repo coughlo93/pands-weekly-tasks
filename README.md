@@ -1,4 +1,4 @@
-# This is my README for my Weekly Tasks
+# This is the README for my Weekly Tasks
 
 ## The following Weekly Tasks are in this repository.
 

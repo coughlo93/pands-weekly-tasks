@@ -4,10 +4,10 @@
 import datetime
 
 def is_weekday():
-    # Get the current day of the week 
+# Get the current day of the week 
     current_day = datetime.datetime.today().weekday()
 
-    # Find out is the current day a weekday
+# Find out is the current day a weekday
     return current_day < 5
 
 def answer():
@@ -18,4 +18,3 @@ def answer():
         
 if __name__ == "__main__":
     answer()
-    

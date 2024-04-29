@@ -2,8 +2,7 @@
 # The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
 # Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
 
-filename = 'C:\\Users\\owenc\\Desktop\\pands\\pands-weekly-tasks\\moby-dick.txt' # Update the file path as needed
-
+filename = 'C:\\Users\\owenc\\Desktop\\pands\\pands-weekly-tasks\\moby-dick.txt' 
 try:
     with open(filename, 'r', encoding='utf-8') as file:
         text = file.read()
